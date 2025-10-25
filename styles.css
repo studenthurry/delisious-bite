@@ -1,0 +1,123 @@
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.logo{
+    
+    font-weight:bold;
+    font-size: 24px;
+    color:red;
+}
+.nav ul{
+    display:flex;
+    list-style:none;
+}
+.nav ul li{
+    margin-left:25px;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.btn{
+    font-weight:600;
+    border-radius:30px;
+}
+.btn-login{
+    color:red;
+    border:2px solid red;
+}
+.btn-login:hover{
+    color:white;
+    background:red;
+    border:2px solid white;
+}
+.btn-signup{
+    background-color:red;
+    border:2px solid white;
+    color:white;
+}
+.btn-signup:hover{
+    background-color: white;
+    border:2px solid red;
+    color:red;
+}
+    .hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('fastfood.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+ width: 800px;
+  color: white;
+  height: 500px;
+}
+.search-bar{
+    border-radius:15px;
+    height:25px;
+    width:40px;
+    margin-top:20px;
+    background-color: white;
+}
+.searchbar-input{
+    color:grey;
+    text-align: center;
+    justify-content: center;
+}
+.search-button{
+    background-color:red;
+    color:white;
+    border-radius:15px;
+    height:40px;
+    width:65px;
+}
+.searchbar-button:hover{
+    color:red;
+    background-color:white;
+}
+.container{
+    text-align:center;
+    margin-bottom:40px;
+}
+.icon{
+    background-color:red;
+    margin-bottom:20px;
+}
+.features{
+    text-align:center;
+    margin-bottom:40px;
+}
+.subhero-button{
+    border-radius: 15px;
+    background-color:red;
+    color:white;
+}
+.footer{
+    background-color: black;
+    color:white;
+}
+.footer-container h3{
+    font-size:20px;
+    margin-bottom:20px;
+    color:red;
+}
+.footer-icons a{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    background-color: white;
+    text-align:center;
+    border-radius: 50%;
+}
+.footer-section{
+    flex-direction: column;
+    align-items:center;
+}
+.footer-bottom{
+    text-align: center;
+}
